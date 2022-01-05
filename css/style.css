@@ -1,0 +1,71 @@
+/*Mise en page*/
+body {
+    font-family: 'Poppins'; 
+    background: linear-gradient(-45deg, #dc7f74, #8966aa, #92617b, #f5a5a5, #aca8db);
+    background-size: 400% 400%; 
+    animation: gradient 5s ease infinite;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.introduction , .chat , .chien , .lapin , .herisson , .serpent , .chouette , .chat h2 , .chien h2 , .lapin h2 , .chouette h2 , .herisson h2 , .serpent h2 , .adresses , .merci {
+    font-family: fantasy;
+}
+
+/*header*/
+
+.titre h1
+{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    background-color: bisque;
+    margin-top: 3%;
+}
+
+.bee
+{
+    height: 22px;
+}
+
+/*fin header */
+
+/*Body*/
+
+
+.chat h2 , .chien h2 , .lapin h2 , .chouette h2 , .herisson h2 , .serpent h2 , .adresses h2 
+{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.chat h2 , .chien h2 , .lapin h2 , .chouette h2 , .herisson h2 , .serpent h2 , .adresses h2 
+{
+    font-weight: bold
+}
+/*Fin Body*/
+
+/*footer*/
+
+
+
+.merci {
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+}
+/*fin footer*/
